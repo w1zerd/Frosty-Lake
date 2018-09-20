@@ -5,6 +5,9 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+
+
+
 # Visual Studio cache directory
 .vs/
 
@@ -12,21 +15,32 @@ Assets/AssetStoreTools*
 ExportedObj/
 .consulo/
 *.csproj
-*.unityproj
+*.asset
 *.sln
+*.fbx
+*.anim
 *.suo
 *.tmp
 *.user
 *.userprefs
 *.pidb
 *.booproj
+*.mat
 *.svd
 *.pdb
 *.opendb
+*.controller
+*.prefab
+*.png
+*.tga
+*.txt
+*.pdf
+*.json
 
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
+*.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -34,3 +48,214 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+Assets/Archanor/Sci-FiArsenal/
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_1.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_2.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_3.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_4.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_5.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_6.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_7.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_beams.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_beamup.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_buff.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_fire.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_flamethrowers.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_flamethrowers_legacy.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_hexagonzone.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_jetflame.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_lightjump.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_loot.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_muzzleflash.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_portals.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_projectiles.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_regenerate.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_shields.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_swirlyaura.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_ultimatenova.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scenes/scifi_warpgates.unity
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scripts/SciFiBeamScript.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scripts/SciFiButtonScript.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scripts/SciFiDragMouseOrbit.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scripts/SciFiFireProjectile.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scripts/SciFiLoadSceneOnClick.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scripts/SciFiLoadSceneOnClick2.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scripts/SciFiLoopScript.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/InteractiveDemo/Demo Scripts/SciFiProjectileScript.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Scripts/SciFiLightFade.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Scripts/SciFiLightFlicker.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Scripts/SciFiRotation.cs
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/energy_impact.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/energy_impact2.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/explosion_laser.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/fire_impact.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/laser_impact.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/laser_impact2.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/laser_impact3.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/lightning_impact.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/rocket_impact.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/rocket_impact2.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/rocket_impact3.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/shoot_laser.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/shoot_laser2.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/shoot_laser3.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Impact/shoot_pulsegun.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Loops/energy_loop.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Loops/fireloop.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Loops/laser_loop.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Loops/lightning_loop.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Loops/rocket_loop.wav
+FrostyLate/Assets/Archanor/Sci-FiArsenal/Sci-Fi Effects/Sound/Loops/rocket_loop2.wav
+FrostyLate/Assets/ScifiWeaponSeriesEnergyPistols/ExampleScene+Readme/ExampleScene.unity
+FrostyLate/Assets/ScifiWeaponSeriesEnergyPistols/ExampleScene+Readme/ExampleScene2.unity
+FrostyLate/Assets/Scenes/SampleScene.unity
+FrostyLate/Assets/Simple Particle Scaler/Scripts/Editor/ParticleScaler.cs
+FrostyLate/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav
+FrostyLate/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav
+FrostyLate/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav
+FrostyLate/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav
+FrostyLate/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader
+FrostyLate/Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd
+FrostyLate/Assets/WeaponController.cs
+New Unity Project/Assets/AnimatorControl.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_1.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_2.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_3.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_4.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_5.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_6.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_7.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_beams.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_beamup.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_buff.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_fire.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_flamethrowers.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_flamethrowers_legacy.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_hexagonzone.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_jetflame.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_lightjump.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_loot.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_muzzleflash.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_portals.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_projectiles.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_regenerate.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_shields.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_swirlyaura.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_ultimatenova.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_warpgates.unity
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiBeamScript.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiButtonScript.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiDragMouseOrbit.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiFireProjectile.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiLoadSceneOnClick.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiLoadSceneOnClick2.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiLoopScript.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiProjectileScript.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiLightFade.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiLightFlicker.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiRotation.cs
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/energy_impact.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/energy_impact2.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/explosion_laser.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/fire_impact.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/laser_impact.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/laser_impact2.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/laser_impact3.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/lightning_impact.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/rocket_impact.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/rocket_impact2.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/rocket_impact3.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/shoot_laser.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/shoot_laser2.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/shoot_laser3.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/shoot_pulsegun.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/energy_loop.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/fireloop.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/laser_loop.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/lightning_loop.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/rocket_loop.wav
+New Unity Project/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/rocket_loop2.wav
+New Unity Project/Assets/ScifiWeaponSeriesEnergyPistols/ExampleScene+Readme/ExampleScene.unity
+New Unity Project/Assets/ScifiWeaponSeriesEnergyPistols/ExampleScene+Readme/ExampleScene2.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_1.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_2.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_3.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_4.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_5.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_6.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/1.5 Update Scenes/update_scifi_7.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_beams.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_beamup.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_buff.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_fire.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_flamethrowers.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_flamethrowers_legacy.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_hexagonzone.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_jetflame.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_lightjump.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_loot.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_muzzleflash.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_portals.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_projectiles.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_regenerate.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_shields.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_swirlyaura.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_ultimatenova.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scenes/scifi_warpgates.unity
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiBeamScript.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiButtonScript.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiDragMouseOrbit.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiFireProjectile.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiLoadSceneOnClick.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiLoadSceneOnClick2.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiLoopScript.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiProjectileScript.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiLightFade.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiLightFlicker.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiRotation.cs
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/energy_impact.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/energy_impact2.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/explosion_laser.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/fire_impact.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/laser_impact.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/laser_impact2.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/laser_impact3.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/lightning_impact.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/rocket_impact.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/rocket_impact2.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/rocket_impact3.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/shoot_laser.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/shoot_laser2.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/shoot_laser3.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Impact/shoot_pulsegun.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/energy_loop.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/fireloop.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/laser_loop.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/lightning_loop.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/rocket_loop.wav
+FrostyLake/Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Sound/Loops/rocket_loop2.wav
+FrostyLake/Assets/Simple Particle Scaler/Scripts/Editor/ParticleScaler.cs
+FrostyLake/Assets/ScifiWeaponSeriesEnergyPistols/ExampleScene+Readme/ExampleScene.unity
+FrostyLake/Assets/ScifiWeaponSeriesEnergyPistols/ExampleScene+Readme/ExampleScene2.unity

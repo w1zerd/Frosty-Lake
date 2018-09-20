@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour {
 
-    private GameObject shoot(GameObject bulletPrefab, Vector3 targetPosition, Vector3 origin)
+    private GameObject shoot(GameObject bulletPrefab, Vector3 targetPosition, Vector3 originPos)
     {
-
-
-        
-
-        // This would cast rays only against colliders in layer 8.
-        // But instead we want to collide against everything except layer 8. The ~ operator does this, it inverts a bitmask.
-        
+       
 
         RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(cam.transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
+        if (Physics.Raycast(cam.transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity)) 
         {
             Debug.DrawRay(cam.transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
             Debug.Log("Did Hit");
@@ -27,13 +21,13 @@ public class WeaponController : MonoBehaviour {
             Debug.Log("Did not Hit");
         }
 
-        Vector3 direction = (targetPosition - origin).normalized;
+        Vector3 direction = (targetPosition - originPos).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(direction);
-        GameObject instantiatedBullet = Instantiate(bulletPrefab, origin, lookRotation);
+        GameObject instantiatedBullet = Instantiate(bulletPrefab, originPos, lookRotation);
         try
         {
             instantiatedBullet.transform.LookAt(hit.point);
-            instantiatedBullet.GetComponent<BulletController>().SetBulletSpeed((float)bulletSpeed);
+            instantiatedBullet.GetComponent<BulletController>().SetupBullet((float)bulletSpeed, origin, curvePoint, controlPoint);
         }
         catch
         {
@@ -60,6 +54,7 @@ public class WeaponController : MonoBehaviour {
 
     public List<GameObject> activeBullets = new List<GameObject>();
 
+
     #region Variables
     private enum BulletType //Enum to pick how gun shoots
     {
@@ -74,10 +69,10 @@ public class WeaponController : MonoBehaviour {
     private BulletType fireMode;
 
     [SerializeField]
-    private GameObject projectilePrefab; //Prefab to be used as a projectile
+    private GameObject projectilePrefab, impactPrefab, muzzleFlarePrefab; //Prefab to be used as a projectile, 
+                                                                          //Prefab to be used when the projectile hits something,
+                                                                          //Prefab to be used as muzzle flare.
 
-    [SerializeField]
-    private GameObject impactPrefab; //Prefab to be used when the projectile hits something
 
     [SerializeField]
     private double bulletSpeed; //Self explainatory
@@ -86,13 +81,23 @@ public class WeaponController : MonoBehaviour {
     private Camera cam; // camera used for bullet direction
 
     [SerializeField]
-    private Transform origin; // origin used for projectiles
+    private Transform origin, curvePoint, controlPoint;// origin used for projectiles
+
+
+
+
+
+
     #endregion
 
     void Start () {
         if (cam == null) //Find the camera if not provided
         {
             cam = FindCamera();
+        }
+        if ((origin != null) && (curvePoint != null))
+        {
+            origin.LookAt(curvePoint.position);
         }
         
 		
