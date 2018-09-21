@@ -4,27 +4,45 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour {
 
-    public Transform origin, curvePoint, controlPoint;
-    private Vector3 originPos, curvePointPos, controlPointPos;
-    private Quaternion controlRotation, startRotation;
-    private float timeAlive, timeCreated, curveTime = 0;
-    private bool curving = true;
-    private double curveDistance;
-    public float speed = 5;
-    
+    [Range(0f, 2f)]
+    public float curveAmount = 0.1f;
 
-    public void SetupBullet(float providedSpeed, Transform providedOrigin, Transform providedCurvepoint, Transform providedControlPoint)
+    public Transform origin, curvePoint, controlPoint;
+
+    private Vector3 originPos, curvePointPos, controlPointPos;
+
+    private Quaternion controlRotation, startRotation;
+
+    private float timeAlive, timeCreated, curveTime = 0;
+
+    private bool curving = true;
+
+    private double curveDistance;
+
+    public float speed = 5;
+
+    public GameObject impactPrefab;
+    
+    public void SelfDestruct() //usually called when the bullet hits something, or goes too far away from where it was shot.
     {
+        GameObject impact = Instantiate(impactPrefab, transform.position, transform.rotation);
+        Destroy(gameObject);
+    }
+
+
+    public void SetupBullet(GameObject providedImpactPrefab, float providedSpeed, Transform providedOrigin, Transform providedCurvepoint, Transform providedControlPoint)
+    {
+        impactPrefab = providedImpactPrefab; // set the impact prefab
 
         speed = providedSpeed; //set the speed
         origin = providedOrigin;  //set this bullets curve variables
-        curvePoint = providedCurvepoint;
-        controlPoint = providedControlPoint;
-        controlRotation = providedControlPoint.rotation;
+        curvePoint = providedCurvepoint;//
+        controlPoint = providedControlPoint;//
+        controlRotation = providedControlPoint.rotation;//
 
         originPos = origin.position; 
         controlPointPos = controlPoint.position;
-        curvePointPos = curvePoint.position + (Random.insideUnitSphere * .1f); //set the curvepoint randomly to make a new curve every time
+        curvePointPos = curvePoint.position + (Random.insideUnitSphere * curveAmount); //set the curvepoint randomly to make a new curve every time
 
         transform.LookAt(curvePoint); // look at the conrol point
         startRotation = transform.rotation; // save the new rotation
@@ -40,9 +58,10 @@ public class BulletController : MonoBehaviour {
         
     }
 
-    private Vector3 calculateQuadraticBezierPoint(float t, Vector3 p0, Vector3 p1, Vector3 p2)
+    private Vector3 calculateQuadraticBezierPoint(float t, Vector3 p0, Vector3 p1, Vector3 p2) // this function calculates points on a
+                                                                                               // bezier curve with supplied control points
     {
-        return (Mathf.Pow(1 - t, 2) * p0) + (((2 * (1 - t)) * t) * p1) + ((Mathf.Pow(t, 2) * p2)); //calculates and returns a quadratic bezier point
+        return (Mathf.Pow(1 - t, 2) * p0) + (((2 * (1 - t)) * t) * p1) + ((Mathf.Pow(t, 2) * p2)); 
 
     }
 
@@ -67,7 +86,7 @@ public class BulletController : MonoBehaviour {
         {
             curveTime += Time.deltaTime / 0.1f;
             transform.position = calculateQuadraticBezierPoint(curveTime, originPos, curvePointPos, controlPointPos);
-            transform.rotation = Quaternion.Slerp(startRotation, controlRotation, (curveTime));
+            transform.LookAt(calculateQuadraticBezierPoint(curveTime, originPos, curvePointPos, controlPointPos));
         }
         else
         {

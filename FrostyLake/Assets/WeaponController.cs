@@ -6,10 +6,9 @@ public class WeaponController : MonoBehaviour {
 
     private GameObject shoot(GameObject bulletPrefab, Vector3 targetPosition, Vector3 originPos)
     {
-       
 
+        #region ray casting
         RaycastHit hit;
-        // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(cam.transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity)) 
         {
             Debug.DrawRay(cam.transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
@@ -20,6 +19,7 @@ public class WeaponController : MonoBehaviour {
             Debug.DrawRay(cam.transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
             Debug.Log("Did not Hit");
         }
+        #endregion
 
         Vector3 direction = (targetPosition - originPos).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(direction);
@@ -27,13 +27,16 @@ public class WeaponController : MonoBehaviour {
         try
         {
             instantiatedBullet.transform.LookAt(hit.point);
-            instantiatedBullet.GetComponent<BulletController>().SetupBullet((float)bulletSpeed, origin, curvePoint, controlPoint);
+            instantiatedBullet.GetComponent<BulletController>().SetupBullet(impactPrefab, (float)bulletSpeed, origin, curvePoint, controlPoint);
         }
         catch
         {
             Debug.Log("couldnt find bulletcontroller");
         }
-        
+
+        GameObject muzzleFlash = Instantiate(muzzleFlarePrefab, flashPoint.position, flashPoint.rotation, flashPoint);
+        Destroy(muzzleFlash, 1f);
+
         return instantiatedBullet;
     }
 
@@ -81,7 +84,7 @@ public class WeaponController : MonoBehaviour {
     private Camera cam; // camera used for bullet direction
 
     [SerializeField]
-    private Transform origin, curvePoint, controlPoint;// origin used for projectiles
+    private Transform flashPoint, lazerParent, origin, curvePoint, controlPoint;// origin used for projectiles
 
 
 
