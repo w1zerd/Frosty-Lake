@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Matthew Blaire September 2018*/
 public class ControlsController : MonoBehaviour {
     public static ControlsController controls;
     public KeyCode fireButton, jumpButton, forwardButton, strafeLeftButton, strafeRightButton, backwardsButton;
