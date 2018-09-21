@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Matthew Blaire September 2018*/
 public class WeaponController : MonoBehaviour {
 
     private GameObject shoot(GameObject bulletPrefab, Vector3 targetPosition, Vector3 originPos)
